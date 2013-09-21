@@ -194,7 +194,7 @@ seajs.use(['$', 'gallery/underscore/1.4.4/underscore', 'arale/popup/1.1.2/popup'
             var list = substractTitle(moduleNode.find('h2'));
 
             $.ajax({
-                url: '/' + dep[0],
+                url: '/api/' + dep[0],
                 dataType: 'html',
                 success: function(data) {
                     data = $(data);
