@@ -4608,7 +4608,7 @@ input.ui-checkbox {
 .ui-nav a{text-decoration:none;}
 .ui-nav a:hover{text-decoration:none}
 .ui-nav ul,.ui-nav li{list-style-type:none}
-.ui-nav-main{zoom:1;margin:0;padding-left:10px;-webkit-border-radius:2px 2px 0 0;border-radius:2px 2px 0 0;background:-webkit-linear-gradient(top,#F39100,#F17A00);background:-moz-linear-gradient(top,#F39100,#F17A00);background:-ms-linear-gradient(#F39100,#F17A00);background:-o-linear-gradient(#F39100,#F17A00);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF39100, endColorstr=#FFF17A00)}
+.ui-nav-main{zoom:1;margin:0;padding-left:10px;-webkit-border-radius:2px 2px 0 0;border-radius:2px 2px 0 0;background:-webkit-linear-gradient(top,#00a8e6,#00a8e6);background:-moz-linear-gradient(top,#F39100,#F17A00);background:-ms-linear-gradient(#F39100,#F17A00);background:-o-linear-gradient(#F39100,#F17A00);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFF39100, endColorstr=#FFF17A00)}
 .ui-nav-main:before,.ui-nav-main:after{content:"";display:table}
 .ui-nav-main:after{clear:both}
 .ui-nav-item{float:left;margin:7px 5px 0 0;}
