@@ -32,6 +32,7 @@
 .ui-grid-23 {width:910px;}
 .ui-grid-24 {width:950px;}
 .ui-grid-25 {width:990px;} /* 最大页面宽度 */
+.ui-grid-100 {width:100%;} /* 最大页面宽度 */
  
 .ui-grid-row {
     margin-right: -10px;
