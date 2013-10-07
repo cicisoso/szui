@@ -45,8 +45,9 @@
 	                <ul class="ui-nav-main">
 	                    <li class="ui-nav-item"><a href="/"><i title="首页" class="iconfont"></i> 首页</a></li>
 	                    {%- for item in resource.pages|find_category('alice') %}
-	                    <li class="ui-nav-item"><a href="{{permalink_url(item)}}">{{item.title}}</a></li>
+	                    <li class="ui-nav-item" data-title="{{item.title}}"><a href="{{permalink_url(item)}}">{{item.title}}</a></li>
 	                    {%- endfor %}
+	                    <li class="ui-nav-item"><a href="/demo/overview.html">DEMO</a></li>
 	                </ul>
 	            </div>
             <div class="main-area">
