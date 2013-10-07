@@ -6,6 +6,7 @@
 */
 .ui-nav {
   position: relative;
+  background: #AD129B;
 }
 .ui-nav a {
   text-decoration: none;
@@ -17,11 +18,13 @@
 .ui-nav li {
   list-style-type: none;
 }
+.ui-nav-auto .ui-nav-main {
+  width: 990px;
+  margin: 0 auto;
+}
 .ui-nav-main {
   zoom: 1;
   margin: 0;
-  padding-left: 10px;
-  background: #cc0000;
 }
 .ui-nav-main:before,
 .ui-nav-main:after {
@@ -52,9 +55,9 @@
 }
 .ui-nav-item-current a,
 .ui-nav-item-current a:hover {
-  background: #fff;
+  background: #cc0000;
   filter: none;
-  color: #000;
+  color: #fff;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -94,4 +97,65 @@
 .ui-nav-nosub .ui-nav-subcontainer,
 .ui-nav-nosub .ui-nav-subitem {
   display: none;
+}
+.ui-nav-vertical {
+  height: auto;
+  width: 80%;
+  z-index: 500;
+  box-shadow: -1px 1px 10px 0px #f7f5fa;
+  margin: 0 auto;
+  font-size: 16px;
+  overflow: hidden;
+  background: #fff;
+  border-left: 2px solid #cc0000;
+  transition: box-shadow 0.5s ease;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+}
+.ui-nav-vertical .ui-nav-main {
+  padding: 10px 0;
+  margin: 0;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item {
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  transition: all 0.5s ease;
+  float: none;
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px dashed #ccc;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item:last-child {
+  border-bottom: none;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item:hover {
+  text-indent: 9px;
+  background: rgba(247, 64, 64, 0.4);
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item:hover a {
+  color: #ffffff;
+  _color: #FFF;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item a {
+  color: #716b7a;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  display: block;
+  padding-left: 10px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item a:hover {
+  color: #fff;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item-current a,
+.ui-nav-vertical .ui-nav-main .ui-nav-item-current a:hover {
+  background: #cc0000;
+  color: #fff;
 }

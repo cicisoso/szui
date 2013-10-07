@@ -1,0 +1,299 @@
+/*! define alice/form/1.0.2/form-debug.css */
+/* alice.form 样式模块 */
+.radius (@radius: 3px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+@swcolor: #cc0000;
+.ui-form {
+    font-size: 12px;
+    line-height: 1.5;
+
+    fieldset {
+ 	   border:0;
+	}
+	legend {
+	    display: none;
+	}
+	.ui-form-item {
+	    zoom: 1;
+		padding: 0 2px;
+		line-height: 30px;
+		padding: 0 5px 10px 170px;
+		margin: 5px 0;
+		label{
+			&.ui-label {
+				display: inline-block;
+			    font-size: 12px;
+			    color: #808080;
+			    border: 1px solid #ccc;
+				// .radius(3px);
+				background: #ffffff;
+				.ui-form-label-title{
+					padding-left: 5px;
+				}
+				&:hover,&:focus,&:active{
+				    border: 1px @blue solid;
+				    box-shadow: 0 0 3px #8cddff;
+				    color: #595959;
+				}
+				.ui-input {
+				    color: #595959;
+				    vertical-align: middle;
+				    *vertical-align: -5px;
+				    line-height: 18px;
+				    font-size: 13px;
+				    display: inline-block;
+				    border:none;
+				    //border: 1px solid #c1c1c1;
+				    outline: none;
+				    margin: 0;
+				    height: 30px;
+				    padding: 0 0 0 2px;
+				    margin-top: -3px;
+				}
+				.ui-input-w100{width: 100px;}
+				.ui-input-w200{width: 200px;}
+				.ui-input-w300{width: 300px;}
+				.ui-input-w400{width: 400px;}
+				.ui-input-w500{width: 500px;}
+				.ui-input-w600{width: 600px;}
+			}
+			&.ui-label-noborder{
+				border: none !important;
+				background: none !important;
+				&:hover,&:focus,&:active{
+					border: none !important;
+					box-shadow: none !important;
+					background: none !important;
+				}
+			}
+			&.ui-label-disable{
+				background: #f2f2f2;
+				&:hover,&:focus,&:active{
+					box-shadow: none !important;
+					border: 1px solid #ccc;
+					background: #f2f2f2;
+				}
+			}
+			&.ui-label-checkbox{
+				color: #666;
+				.ui-checkbox {
+				    vertical-align: 1px; //baseline;
+				}
+			}
+		}
+
+		.ui-form-required {
+		    color: @swcolor;
+		    font-family: SimSun;
+		    font-size: 14px;
+		}
+		.ui-form-explain {
+		    margin: 0;
+		    padding: 0;
+		    font-size: 12px;
+		    color: #B2B2B2;
+		}
+		.ui-form-other {
+		    margin-left: 8px;
+		    font-size: 12px;
+		    color: #B2B2B2;
+		    a{
+		    	color: #08c;
+		    }
+		}
+		
+		select {
+		    vertical-align: middle;
+		}
+		input {
+		    vertical-align: middle;
+		}
+	}
+
+	.ui-form-item-text{
+		zoom: 1;
+		padding: 0 2px;
+		line-height: 30px;
+		padding: 0 5px 10px 170px;
+		margin: 5px 0;
+		.ui-label {
+			display: inline-block;
+		    font-size: 12px;
+		    color: #808080;
+		}
+		.ui-form-text {
+		    display: inline-block;
+		    color: #595959;
+		    *display: inline;
+		    *zoom: 1;
+		}
+	}
+	.ui-textarea{
+		display: block;
+		line-height: 15px;
+	    border: 1px #ccc solid;
+	    padding: 1px 3px 0 4px;
+	    outline: none;
+	    height: 130px;
+	    width: 370px;
+	    overflow: auto;
+	    font-family: Arial;
+	    font-size: 12px;
+		&:hover,&:focus,&:active{
+		    border: 1px @blue solid;
+		    box-shadow: 0 0 3px #8cddff;
+		    color: #595959;
+		}
+	}
+	
+	
+}
+
+.ui-form, .ui-form * {
+    list-style: none;
+}
+
+.ui-form-item:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.ui-form-item-error .ui-input,
+.ui-form-item-error .ui-textarea {
+    border: 1px #F00 solid;
+    color: #F00;
+}
+
+.ui-form-item-error .ui-input-reset {
+    border: 1px #9C9C9C solid;
+    color: #000;
+}
+
+.ui-form-item-error .ui-form-explain {
+    color: #FF5243;
+}
+
+
+.ui-input[disabled],
+.ui-textarea[disabled] {
+    background: #f2f2f2;
+}
+
+.ui-input:disabled,
+.ui-textarea:disabled {
+    background: #f2f2f2;
+}
+
+.placeholder {
+    color: #ccc;
+}
+
+.ui-input-checkcode {
+    width: 100px;
+    height: 24px;
+    line-height: 28px;
+    margin: 0;
+    padding: 2px 5px;
+}
+
+.ui-form-item-hover .ui-input,
+.ui-form-item-hover .ui-textarea {
+    border:1px #727272 solid;
+}
+
+.ui-form-item-focus .ui-input,
+.ui-form-item-focus .ui-textarea {
+    border: 1px #07f solid;
+    box-shadow: 0 0 3px #8cddff;
+}
+
+.ui-form-item-focus .ui-form-explain,
+.ui-form-item-hover .ui-form-explain {
+    color:#333;
+}
+
+@leftWidth: 12%;
+@blue: #5C8EFF;
+@red: #CC3333;
+.w(@width: 300, @lableWidth : 60){
+ 
+  label{
+     width: auto;
+    font-size: 12px;
+  }
+  .txt{
+    width: @width;
+  }
+}
+.w0{ .w(100px, 60px); text-align: center;}
+.w1{ .w(100px, 60px) }
+.w2{ .w(200px, 60px) }
+.l2{ .w(190px, 40px) }
+.w3{ .w(300px, 60px) }
+.w4{ .w(400px, 60px) }
+.w5{ .w(500px, 60px) }
+.w6{ .w(24px, 30px) }
+.input{
+  border: 1px solid #ccc;
+  .radius(3px);
+  background: #ffffff;
+  padding: 0 2px;
+  height: 26px;
+  margin: 5px 0;
+  label{
+    color: #808080;
+    font-size: 12px;
+    display: inline-block;
+  }
+  .txt{
+    display: inline-block;
+    border:none;
+    outline: none;
+    margin: 0;
+    height: 26px;
+    padding: 0 0 0 2px;
+  }
+  .page-txt{
+    position: relative;
+    height: 26px;
+    .add_page{
+      position: absolute;
+      right: -2px;
+      top: 0;
+      background: #ccc;
+      height: 27px;
+      a{
+        display: block;
+        background: url(img/page.png) no-repeat center center;
+        width: 20px;
+        height: 14px;
+        padding: 0 5px;
+        margin-top: 8px;
+      }
+    }
+  }
+  .disable-text{
+    background: #ccc;
+    font-size: 12px;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    b{
+      background: @blue;
+      color: #fff;
+      font-weight: normal;
+      display: inline-block;
+      margin: 0 2px;
+      padding: 0 6px;
+      .radius(2px);
+      font-size: 11px;
+    }
+  }
+}

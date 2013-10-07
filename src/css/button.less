@@ -1,4 +1,20 @@
 /*! define alice/button/1.1.1/button-debug.css */
+.radius (@radius: 3px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+@black_gray: #5C5858; 
+@swcolor: #cc0000;
+@bgColor: #212225;
+@fontColor: #fff;
+@blue: #377bee;
+//@hover: #fff1d0;
+@hover: #d56538;
+@yellow: #F49C25;
+@black: #644b4f;
 .ui-button * {
   margin: 0;
   padding: 0;
@@ -14,26 +30,21 @@
   font-weight: normal;
   height: 26px;
   line-height: 26px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
-  border-radius: 1px;
+  .radius(1px);
   padding: 2px 4px;
   border: none;
   *zoom: 1;
   *overflow: visible;
   /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */
-
   background-image: none;
   color: #fff;
   background-color: #cc0000;
-}
-.ui-button:hover {
-  text-decoration: none;
-  background-image: none;
-  color: #fff;
-  background-color: #d5511c;
+  &:hover{
+  	text-decoration: none;
+  	background-image: none;
+  	color: #fff;
+  	background-color: #d5511c;
+  }
 }
 .ui-button .ui-button-text {
   background: none;
@@ -45,7 +56,6 @@ input.ui-button-text,
 button.ui-button-text {
   *vertical-align: top;
   /* for a ie7 bug */
-
 }
 a.ui-button,
 a.ui-button,
@@ -76,21 +86,20 @@ a.ui-button:active {
   line-height: 22px;
   font-size: 11px;
 }
-.ui-button-primary {
-  color: #fff;
-  background-color: #00a8e6;
+.ui-button-primary{
+	color: #fff;
+  	background-color: #00a8e6;
+  	&:hover{
+  		background-color: #35b3ee;	
+  	}
 }
-.ui-button-primary:hover {
-  background-color: #35b3ee;
+.ui-button-blue{
+	background-color: #3771f3;
+	&:hover{
+		background-color: #005dfa;	
+	}
 }
-.ui-button-blue {
-  background-color: #3771f3;
-}
-.ui-button-blue:hover {
-  background-color: #005dfa;
-}
-.ui-button-disable,
-.ui-button-disable:hover {
+.ui-button-disable, .ui-button-disable:hover{
   color: #333;
   border: none;
   background: #ccc;

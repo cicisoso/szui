@@ -1,0 +1,92 @@
+/*! define alice/tab/1.0.0/tab-debug.css */
+/* alice.tab 样式模块 */
+
+@charset "utf-8";
+
+
+@black_gray: #5C5858; 
+@swcolor: #cc0000;
+@bgColor: #212225;
+@fontColor: #fff;
+@blue: #377bee;
+//@hover: #fff1d0;
+@hover: #d56538;
+@yellow: #F49C25;
+@black: #644b4f;
+
+@bordercolor: #ccc;
+@currentBgColor: @swcolor;
+@currentColor: #fff;
+
+.ui-tab {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px;
+}
+
+.ui-tab li {
+    list-style: none;
+    vertical-align: top;
+    position: relative;
+    // top: 1px;
+}
+
+.ui-tab-items {
+    border-bottom: 1px solid @bordercolor;
+    font-size: 13px;
+}
+
+.ui-tab-item {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    *margin-right: 4px;
+}
+
+.ui-tab-item a {
+    border-radius: 3px 3px 0 0;
+    background: #fff;
+    line-height: 32px;
+    height: 32px;
+    padding: 0 10px;
+    border: 1px solid @bordercolor;
+    border-bottom: none;
+    color: #4D4D4D;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    transition: background-color 0.4s ease-out, color 0.4s ease-out;
+}
+
+.ui-tab-item a,
+.ui-tab-item a:hover,
+.ui-tab-item a:active {
+    color: #4D4D4D;
+}
+
+.ui-tab-item-current{
+	top: 1px;
+}
+.ui-tab-item-current a {
+    // font-weight: bold;
+    background: @currentBgColor;
+    color: @currentColor;
+    height: 33px;
+    cursor: default;
+    border: none;
+}
+
+.ui-tab-item a:hover {
+    background: #f6f6f6;
+    text-decoration: none;
+}
+
+.ui-tab-item-current a:hover {
+    background: @currentBgColor;
+    color: @currentColor;
+}

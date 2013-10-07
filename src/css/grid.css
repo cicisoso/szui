@@ -1,8 +1,34 @@
 /*! define alice/grid/1.0.0/grid-debug.css */
 /* alice.grid 样式模块 */
 
-.ui-grid-1, .ui-grid-2, .ui-grid-3, .ui-grid-4, .ui-grid-5, .ui-grid-6, .ui-grid-7, .ui-grid-8, .ui-grid-9, .ui-grid-10, .ui-grid-11,.ui-grid-12, .ui-grid-13, .ui-grid-14, .ui-grid-15, .ui-grid-16, .ui-grid-17, .ui-grid-18, .ui-grid-19, .ui-grid-20, .ui-grid-21, .ui-grid-22, .ui-grid-23, .ui-grid-24, .ui-grid-25 {
-    margin: 0 10px 10px 0;
+.ui-grid-1, .ui-grid-2, .ui-grid-3, .ui-grid-4, .ui-grid-5, .ui-grid-6, .ui-grid-7, .ui-grid-8, .ui-grid-9, .ui-grid-10, .ui-grid-11,.ui-grid-12, .ui-grid-13, .ui-grid-14, .ui-grid-15, .ui-grid-16, .ui-grid-17, .ui-grid-18, .ui-grid-19, .ui-grid-20, .ui-grid-21, .ui-grid-22, .ui-grid-23, .ui-grid-24, .ui-grid-25,   
+.ui-flue-3,
+.ui-flue-7,
+.ui-flue-11,
+.ui-flue-15,
+.ui-flue-19,
+.ui-flue-23,
+.ui-flue-27,
+.ui-flue-31,
+.ui-flue-35,
+.ui-flue-39,
+.ui-flue-43,
+.ui-flue-47,
+.ui-flue-51,
+.ui-flue-55,
+.ui-flue-59,
+.ui-flue-63,
+.ui-flue-67,
+.ui-flue-71,
+.ui-flue-75,
+.ui-flue-79,
+.ui-flue-83,
+.ui-flue-87,
+.ui-flue-91,
+.ui-flue-95,
+.ui-flue-99,
+.ui-flue-100{
+	margin: 0 10px 10px 0;
     float:left;
     display:inline;
 }
@@ -33,6 +59,33 @@
 .ui-grid-24 {width:950px;}
 .ui-grid-25 {width:990px;} /* 最大页面宽度 */
 .ui-grid-100 {width:100%;} /* 最大页面宽度 */
+
+.ui-flue-3 {width:3%;}
+.ui-flue-7 {width:7%;}
+.ui-flue-11 {width:11%;}
+.ui-flue-15 {width:15%;} /* 右侧推广位的宽度 */
+.ui-flue-19 {width:19%;} /* 左侧边栏的宽度 */
+.ui-flue-23 {width:23%;}
+.ui-flue-27 {width:27%;}
+.ui-flue-31 {width:31%;}
+.ui-flue-35 {width:35%;}
+.ui-flue-39 {width:39%;}
+.ui-flue-43 {width:43%;}
+.ui-flue-47 {width:47%;}
+.ui-flue-51 {width:51%;}
+.ui-flue-55 {width:55%;}
+.ui-flue-59 {width:59%;} /* 中央区域宽度 */
+.ui-flue-63 {width:63%;}
+.ui-flue-67 {width:67%;}
+.ui-flue-71 {width:71%;}
+.ui-flue-75 {width:75%;}
+.ui-flue-79 {width:79%;}
+.ui-flue-83 {width:83%;} /* 交易明细表区域的宽度 */
+.ui-flue-87 {width:87%;}
+.ui-flue-91 {width:91%;}
+.ui-flue-95 {width:95%;}
+.ui-flue-99 {width:99%;} /* 最大页面宽度 */
+.ui-flue-100 {width:100%;} /* 最大页面宽度 */
  
 .ui-grid-row {
     margin-right: -10px;
@@ -45,4 +98,10 @@
     font-size: 0;
     height: 0;
     visibility: hidden;
+}
+.ui-content{
+	margin: 10px;
+	float: left;
+	zoom: 1;
+	width: 100%;
 }

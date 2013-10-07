@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="{{static_url('css/site.css')}}" />
         <link rel="stylesheet" href="{{static_url('css/solarized.css')}}" />    
         <link rel="stylesheet" href="{{static_url('style.css')}}" />
+		<link href="http://0.0.0.0:3000?animate.css&base.css&box.css&button-dropdown.css&button.css&form.css&grid.css&iconfont.css&list.css&loading.css&nav.css&paging.css&poptip.css&select.css&step.css&tab.css&table.css&tab.css&tipbox.css&tiptext.css&demo.css" rel="stylesheet"/>
         {%- include "snippet/head.html" %}
         <script src="{{static_url('js/site.js')}}"></script>
         <!--[if lt IE 9]>
@@ -31,7 +32,7 @@
     </head>
     <body>
         <div id="body-wrapper">
-            <div class="head-area">
+            <div class="head-area fn-hide">
                 <div class="title-area">            
                     <h1>
                         <a href="{{content_url('index.html')}}">{{config.package.title|title}}</a>
@@ -39,17 +40,15 @@
                     <p class="description">{{config.package.description}}</p>
                     <img src="/static/alice-top.png" alt="alice" />
                 </div>
-                <iframe src="http://ghbtns.com/github-btn.html?user=aliceui&repo=aliceui.org&type=watch&count=true"
-                allowtransparency="true" frameborder="0" scrolling="0" width="90" height="20"></iframe>
             </div>
-            <div class="nav-area">
-                <ol class="main-nav">
-                    <li><a href="/"><i title="首页" class="iconfont"></i> 首页</a></li>
-                    {%- for item in resource.pages|find_category('alice') %}
-                    <li><a href="{{permalink_url(item)}}">{{item.title}}</a></li>
-                    {%- endfor %}
-                </ol>
-            </div>
+	            <div class="ui-nav ui-nav-auto">
+	                <ul class="ui-nav-main">
+	                    <li class="ui-nav-item"><a href="/"><i title="首页" class="iconfont"></i> 首页</a></li>
+	                    {%- for item in resource.pages|find_category('alice') %}
+	                    <li class="ui-nav-item"><a href="{{permalink_url(item)}}">{{item.title}}</a></li>
+	                    {%- endfor %}
+	                </ul>
+	            </div>
             <div class="main-area">
                 {%- if post.toc %}
                 <div class="side-area">{{post.toc}}</div>
@@ -67,24 +66,7 @@
                     <h1>{{post.title}}</h1>
                     <div class="content">{{ post.html|replace_code|add_anchor }}</div>
                 </div>
-                {%- if post.filename == 'index' %}
-                <div class="comment-area">
-                    <!-- Duoshuo Comment BEGIN -->
-                    <div class="ds-thread"></div>
-                    <script type="text/javascript">
-                    var duoshuoQuery = {short_name:"aliceui"};
-                    (function() {
-                        var ds = document.createElement('script');
-                        ds.type = 'text/javascript';ds.async = true;
-                        ds.src = 'http://static.duoshuo.com/embed.js';
-                        ds.charset = 'UTF-8';
-                        (document.getElementsByTagName('head')[0] 
-                        || document.getElementsByTagName('body')[0]).appendChild(ds);
-                        })();
-                    </script>
-                    <!-- Duoshuo Comment END -->
-                </div>
-                {%- endif %}
+                
             </div>
         </div>
         <div id="footer-wrapper">

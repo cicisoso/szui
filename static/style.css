@@ -138,14 +138,7 @@ hr {
 }
 
 .nav-area {
-    font-size: 16px;
-    height: 60px;
-    color: #888;
-    margin-bottom: 15px;
-    background: #FBFFD7;
     border-top: 4px solid #9ACD4B;
-    text-align: center;
-    border-bottom: 1px solid #FFF0B5;
 }
 
 .main-nav {

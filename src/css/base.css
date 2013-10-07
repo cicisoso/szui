@@ -3,8 +3,8 @@
 @charset "utf-8";
 /* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */
 html {
-  color: #000;
-  background: #f4f6ec;
+  color: #b0b0b0;
+  background: #f2f2f2;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -237,4 +237,56 @@ body .fn-hide {
 /* chrome 下字体过小的问题 */
 .fn-webkit-adjust {
   -webkit-text-size-adjust: none;
+}
+.fn-left-10 {
+  margin-left: 10px !important;
+}
+.fn-left-20 {
+  margin-left: 20px !important;
+}
+.fn-left-30 {
+  margin-left: 30px !important;
+}
+.fn-left-40 {
+  margin-left: 40px !important;
+}
+.fn-bottom-10 {
+  margin-bottom: 10px !important;
+}
+.fn-bottom-20 {
+  margin-bottom: 20px !important;
+}
+.fn-bottom-30 {
+  margin-bottom: 30px !important;
+}
+.fn-bottom-40 {
+  margin-bottom: 40px !important;
+}
+.fn-top-10 {
+  margin-top: 10px !important;
+}
+.fn-top-20 {
+  margin-top: 20px !important;
+}
+.fn-top-30 {
+  margin-top: 30px !important;
+}
+.fn-top-40 {
+  margin-top: 40px !important;
+}
+.fn-title {
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #2b2b2b;
+  position: relative;
+}
+.fn-title .fn-title-icon {
+  color: #cc0000;
+  padding-right: 8px;
+}
+.fn-title .fn-title-msg {
+  color: #b0b0b0;
+  font-size: 12px;
+  padding-left: 10px;
 }
