@@ -1,1 +1,1 @@
-nico server -C ../nico-alice//nico.js --watch
+nico server -C ./nico-alice/nico.js --watch
