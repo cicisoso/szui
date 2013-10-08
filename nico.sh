@@ -1,1 +1,1 @@
-nico server -C ./alice/nico.js --quiet
+nico server -C ./alice/nico.js --watch
