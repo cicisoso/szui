@@ -1,0 +1,38 @@
+.ui-listnav .ui-listnav-item {
+  clear: both;
+}
+.ui-listnav .ui-listnav-item .ui-listnav-item-title {
+  font-weight: normal;
+  text-align: center;
+  padding: 1px 5px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px;
+  float: left;
+  color: #286666;
+}
+.ui-listnav .ui-listnav-item .ui-listnav-subitem .ui-listnav-subitem-link a {
+  position: relative;
+  font-weight: normal;
+  background: #fff1d0;
+  color: #090707;
+  text-align: center;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 1px 5px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 5px;
+  float: left;
+}
+.ui-listnav .ui-listnav-item .ui-listnav-subitem .ui-listnav-subitem-link a.selected {
+  background: #377bee;
+  color: #fff;
+  text-decoration: none;
+}
+.ui-listnav .ui-listnav-item .ui-listnav-subitem .ui-listnav-subitem-link a:hover {
+  background: #d56538;
+  color: #fff;
+  text-decoration: none;
+}

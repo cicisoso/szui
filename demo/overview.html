@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>demo</title>
-		<link href="http://ued.suanzi.cn:3000?normalize.css&animate.css&base.css&box.css&button-dropdown.css&button.css&form.css&grid.css&iconfont.css&list.css&loading.css&nav.css&paging.css&poptip.css&select.css&step.css&tab.css&table.css&tipbox.css&tiptext.css&demo.css" rel="stylesheet"/>
+		<link href="http://ued.suanzi.cn:3000?normalize.css&animate.css&base.css&box.css&button-dropdown.css&button.css&form.css&grid.css&iconfont.css&list.css&loading.css&nav.css&paging.css&poptip.css&select.css&step.css&tab.css&table.css&tipbox.css&tiptext.css&demo.css&listnav.css" rel="stylesheet"/>
 		<style>
 
 		</style>
@@ -44,9 +44,9 @@
 			<div class="ui-flue-15 ui-flue-left">
 				<div class="ui-nav ui-nav-vertical">
 		  			<ul class="ui-nav-main">
-		    			<li class="ui-nav-item ui-nav-item-current"><a href="#">全部推广计划</a></li>
-					    <li class="ui-nav-item"><a href="#">推广计划</a></li>
-		    			<li class="ui-nav-item"><a href="#">一号计划</a></li>
+		    			<li class="ui-nav-item ui-nav-item-current"><a href="#"><i class="iconfont ui-nav-item-icon">&#xF02F;</i>全部推广计划</a></li>
+					    <li class="ui-nav-item"><a href="#"><i class="iconfont ui-nav-item-icon">&#xF02F;</i>推广计划</a></li>
+		    			<li class="ui-nav-item"><a href="#"><i class="iconfont ui-nav-item-icon">&#xF02F;</i>一号计划</a></li>
 		  			</ul>
 				</div>	
 			</div>
@@ -56,7 +56,7 @@
 
 				<div class="ui-table-container">
 					<h3 class="fn-title fn-bottom-30 fn-top-20">
-						<i class="iconfont fn-title-icon" title="全部推广计划">&#xF04C;</i>
+						<i class="iconfont fn-title-icon" title="全部推广计划">&#xF042;</i>
 						全部推广计划
 						<span class="fn-title-msg">所有推广计划近期数据走势</span>
 					</h3>
@@ -129,7 +129,7 @@
 
 				<div class="ui-flue-99">
 					<h3 class="fn-title fn-bottom-30 fn-top-20">
-						<i class="fn-title-icon iconfont" title="推广计划: 推广计划-王嘉栋">&#xF04C;</i>
+						<i class="fn-title-icon iconfont" title="推广计划: 推广计划-王嘉栋">&#xF042;</i>
 						推广计划: 推广计划-王嘉栋
 					</h3>
 					<div class="ui-tab fn-bottom-20">
@@ -241,8 +241,104 @@
 						    </fieldset>
 						</form>
 					</div>
+
+					<div class="ui-switchable-content">
+
+						<h3 class="fn-title fn-bottom-30 fn-top-20">
+							<i class="fn-title-icon iconfont" title="推广计划: 推广计划-王嘉栋">&#xF042;</i>
+							地域选择
+						</h3>
+						<div class="ui-tab fn-bottom-20">
+						    <ul class="ui-tab-items">
+						        <li class="ui-tab-item">
+						            <a href="javascript:;">华东地区</a>
+						        </li>
+						        <li class="ui-tab-item ui-tab-item-current">
+						            <a href="javascript:;">华北地区</a>
+						        </li>
+						        <li class="ui-tab-item">
+						            <a href="javascript:;">西北地区</a>
+						        </li>
+						        <li class="ui-tab-item">
+						            <a href="javascript:;">中南地区</a>
+						        </li>
+						        <li class="ui-tab-item">
+						            <a href="javascript:;">西南地区</a>
+						        </li>
+						    </ul>
+						</div>
+						<div class="ui-listnav">
+							<div class="ui-listnav-item">
+								<span class="ui-listnav-item-title">浙江</span>
+								<ul class="ui-listnav-subitem">
+									<li class="ui-listnav-subitem-link"><a href="javascript:;" class="selected">杭州</a></li>
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">湖州</a></li>
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">嘉兴</a></li>
+								</ul>
+							</div>
+							<div class="ui-listnav-item">
+								<span class="ui-listnav-item-title">福建</span>
+								<ul class="ui-listnav-subitem">
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">福州</a></li>
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">泉州</a></li>
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">厦门</a></li>
+								</ul>
+							</div>
+							<div class="ui-listnav-item">
+								<span class="ui-listnav-item-title">上海</span>
+								<ul class="ui-listnav-subitem">
+									<li class="ui-listnav-subitem-link"><a href="javascript:;">上海</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 
+
+				<div class="ui-button-dropdown">
+				    <a class="ui-button ui-button-large ui-dbutton ui-dbutton-orange">
+				        <span class="ui-dbutton-self">下拉菜单</span>
+				        <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
+				    </a>
+				    <ul class="ui-button-dropdown-large">
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">设置代扣</a>
+				        </li>
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">标为已缴</a>
+				        </li>   
+				    </ul>
+				</div>
+
+				<div class="ui-button-dropdown">
+				    <a class="ui-button ui-button-normal ui-dbutton ui-dbutton-orange">
+				        <span class="ui-dbutton-self">下拉菜单</span>
+				        <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
+				    </a>
+				    <ul class="ui-button-dropdown-middle">
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">设置代扣</a>
+				        </li>
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">标为已缴</a>
+				        </li>   
+				    </ul>
+				</div>
+
+				<div class="ui-button-dropdown">
+				    <a class="ui-button ui-button-small ui-dbutton ui-dbutton-orange">
+				        <span class="ui-dbutton-self">下拉菜单</span>
+				        <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
+				    </a>
+				    <ul class="ui-button-dropdown-small">
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">设置代扣</a>
+				        </li>
+				        <li class="ui-button-dropdown-item">
+				            <a href="#">标为已缴</a>
+				        </li>   
+				    </ul>
+				</div>
 
 				<!--		
 				<br>
@@ -265,6 +361,10 @@
 					<a href="javascript:;" class="ui-button ui-button-small ui-button-disable">不可点</a>
 				</div>
 				-->
+				<br>
+				<br>
+
+				<br>
 			</div><!-- // ui-flue-right -->
 
 			

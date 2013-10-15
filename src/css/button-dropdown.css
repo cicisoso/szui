@@ -2,7 +2,7 @@
 /*! endblock alice/button/1.1.1/button-debug.css */
 
 .ui-dbutton {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .ui-dbutton:active {
@@ -37,98 +37,46 @@
 }
 
 .ui-dbutton-orange .ui-dbutton-self {
-    border-right: 1px solid #e8720b;
+    /*border-right: 1px solid #fff;*/
 }
 
 .ui-dbutton-orange .ui-dbutton-arrow {
-    border-left: 1px solid #fd8a27;
-    color: #fff;
-}
-
-/* 大橙色按钮 */
-
-.ui-button-lorange .ui-dbutton-self {
-    padding: 0 12px;
-}
-
-.ui-button-lorange .ui-dbutton-arrow {
-    width: 24px;
-}
-
-/* 中橙色按钮 */
-
-.ui-button-morange .ui-dbutton-self {
-    padding: 0 10px;
-}
-
-.ui-button-morange .ui-dbutton-arrow {
-    width: 20px;
-}
-
-/* 小橙色按钮 */
-
-.ui-button-sorange .ui-dbutton-self {
-    padding: 0 8px;
-}
-
-.ui-button-sorange .ui-dbutton-arrow {
-    width:18px;
-    font-size: 10px;
-}
-
-/* 白色 */
-
-.ui-dbutton-white:hover {
-    background-color: #f3f3f3;
-}
-
-.ui-dbutton-white .ui-dbutton-self:hover,
-.ui-dbutton-white .ui-dbutton-arrow:hover {
-    background-color: #fcfbfb;
-    color: #666;
-}
-
-.ui-dbutton-white .ui-dbutton-self {
-    border-right: 1px solid #cdcdcd;
-}
-
-.ui-dbutton-white .ui-dbutton-arrow {
     border-left: 1px solid #fff;
-    color: #999;
+    color: #fff;
+    cursor: pointer;
 }
 
-/* 大白色按钮 */
-
-.ui-button-lwhite .ui-dbutton-self {
+/* 大按钮 */
+.ui-button-large .ui-dbutton-self {
     padding: 0 12px;
 }
 
-.ui-button-lwhite .ui-dbutton-arrow {
+.ui-button-large .ui-dbutton-arrow {
     width: 24px;
 }
 
-/* 中白色按钮 */
+/* 中按钮 */
 
-.ui-button-mwhite .ui-dbutton-self {
+.ui-button-normal .ui-dbutton-self {
     padding: 0 10px;
 }
 
-.ui-button-mwhite .ui-dbutton-arrow {
+.ui-button-normal .ui-dbutton-arrow {
     width: 20px;
 }
 
-/* 小白色按钮 */
+/* 小按钮 */
 
-.ui-button-swhite .ui-dbutton-self {
+.ui-button-small .ui-dbutton-self {
     padding: 0 8px;
 }
 
-.ui-button-swhite .ui-dbutton-arrow {
+.ui-button-small .ui-dbutton-arrow {
     width:18px;
     font-size: 10px;
 }
 
-/*! block alice/button-dropdown/1.1.1/dropdown-debug.css */
+
 .ui-button-dropdown {
     position: relative;
     display: inline-block;
@@ -158,7 +106,7 @@
 }
 .ui-button-dropdown-middle {
     top: 29px;
-    font-size: 14px;    
+    font-size: 13px;    
 }
 .ui-button-dropdown-small {
     top: 25px;
@@ -172,7 +120,7 @@
     padding: 5px 10px;
     display: block;
     zoom: 1;
-    color: #08c;
+    color: #090707;
 }
 .ui-button-dropdown-item a:hover {
     background-color: #DFE9F2;

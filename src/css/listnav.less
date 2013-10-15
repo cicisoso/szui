@@ -1,0 +1,59 @@
+@black_gray: #5C5858; 
+@swcolor: #cc0000;
+@bgColor: #212225;
+@fontColor: #fff;
+@blue: #377bee;
+//@hover: #fff1d0;
+@hover: #d56538;
+@yellow: #F49C25;
+@black: #644b4f;
+.ui-listnav{
+	.ui-listnav-item{
+		clear: both;
+		.ui-listnav-item-title{
+			font-weight: normal;
+			// color: #644b4f;
+			// background: #fff1d0;
+			// color: #780c00;
+			text-align: center;
+			// border-radius: 3px;
+			// -moz-border-radius: 3px;
+			// -webkit-border-radius: 3px;
+			padding: 1px 5px;
+			display: inline-block;
+			font-size: 13px;
+			margin: 5px;
+			float: left;
+			color: #286666;
+		}
+		.ui-listnav-subitem{
+			.ui-listnav-subitem-link a{
+				display: inline-block;
+				float: left;
+				position: relative;
+				font-weight: normal;
+				background: #fff1d0;
+				color: #090707;
+				text-align: center;
+				border-radius: 3px;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				padding: 1px 5px;
+				display: inline-block;
+				font-size: 13px;
+				margin: 5px;
+				float: left;
+				&.selected{
+					background: @blue;
+					color: #fff;
+					text-decoration: none;
+				}
+				&:hover{
+					background: @hover;
+					color: #fff;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

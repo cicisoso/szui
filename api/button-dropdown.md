@@ -11,36 +11,6 @@
 <link type="text/css" rel="stylesheet" media="screen" href="src/button-dropdown.css">
 <link type="text/css" rel="stylesheet" media="screen" href="src/dropdown.css">
 
-````html
-<a class="ui-button ui-button-lorange ui-dbutton ui-dbutton-orange">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-<a class="ui-button ui-button-morange ui-dbutton ui-dbutton-orange">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-<a class="ui-button ui-button-sorange ui-dbutton ui-dbutton-orange">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-````
-
-````html
-<a class="ui-button ui-button-lwhite ui-dbutton ui-dbutton-white">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-<a class="ui-button ui-button-mwhite ui-dbutton ui-dbutton-white">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-<a class="ui-button ui-button-swhite ui-dbutton ui-dbutton-white">
-    <span class="ui-dbutton-self">下拉菜单</span>
-    <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
-</a>
-````
-
 <style>
 .ui-button-dropdown {
     height: 120px;
@@ -49,7 +19,7 @@
 
 ````html
 <div class="ui-button-dropdown">
-    <a class="ui-button ui-button-lorange ui-dbutton ui-dbutton-orange">
+    <a class="ui-button ui-button-large ui-dbutton ui-dbutton-orange">
         <span class="ui-dbutton-self">下拉菜单</span>
         <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
     </a>
@@ -64,7 +34,7 @@
 </div>
 
 <div class="ui-button-dropdown">
-    <a class="ui-button ui-button-morange ui-dbutton ui-dbutton-orange">
+    <a class="ui-button ui-button-normal ui-dbutton ui-dbutton-orange">
         <span class="ui-dbutton-self">下拉菜单</span>
         <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
     </a>
@@ -79,7 +49,7 @@
 </div>
 
 <div class="ui-button-dropdown">
-    <a class="ui-button ui-button-sorange ui-dbutton ui-dbutton-orange">
+    <a class="ui-button ui-button-small ui-dbutton ui-dbutton-orange">
         <span class="ui-dbutton-self">下拉菜单</span>
         <i class="ui-dbutton-arrow iconfont" title="下三角形">&#xF03C;</i>
     </a>

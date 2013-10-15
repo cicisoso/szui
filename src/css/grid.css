@@ -104,12 +104,15 @@
 	float: left;
 	zoom: 1;
 	width: 100%;
-	height: 100%;
-
+    background: #fff;
 }
 .ui-flue-left{
-	height: 1000px;
+	margin: 0;
 }
 .ui-flue-right{
 	overflow: auto;
+    border-left: 1px solid #e3e3e3;
+    padding-left: 10px;
+    margin: 0;
+    background: #f8f8f8;
 }

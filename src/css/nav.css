@@ -101,8 +101,6 @@
 .ui-nav-vertical {
   height: 100%;
   z-index: 500;
-  box-shadow: -1px 1px 10px 0px #f7f5fa;
-  border-right: 1px solid #e3e3e3;
   margin: 0 auto;
   font-size: 15px;
   overflow: hidden;
@@ -145,6 +143,9 @@
   font-weight: bold;
   font-family: Arial, sans-serif;
 }
+.ui-nav-vertical .ui-nav-main .ui-nav-item a .ui-nav-item-icon {
+  padding-right: 10px;
+}
 .ui-nav-vertical .ui-nav-main .ui-nav-item a:hover {
   color: #333;
   background: none;
@@ -157,4 +158,8 @@
   color: #333;
   font-size: 15px;
   font-family: Arial, sans-serif;
+}
+.ui-nav-vertical .ui-nav-main .ui-nav-item-current a .ui-nav-item-icon,
+.ui-nav-vertical .ui-nav-main .ui-nav-item-current a:hover .ui-nav-item-icon {
+  color: #cc0000;
 }

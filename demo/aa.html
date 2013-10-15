@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> 
+<html> 
+<head> 
+<title>左右分栏</title> 
+
+<h1> 右边自适应  </h1>
+<div><!--最外层容器-->
+  <div  style="float:right;margin:0 0 0 -215px; width:100%"><!--右边部分容器，这个是重点，"float:right"的div一定要写到前面，否则会出现结构混乱，”margin:0px 0px 0px -215px“是用来为左边的部分空出空间-->
+    <div  style="margin:0 0 0 215px; background:#e4e4e4">这里是右边的内容</div><!--”margin:0 0 0 215px“空出左边空间-->
+  </div>
+  <div  style="float:left;width:215px; background:#669999;height: 100%;">这里左边部分</div><!--左边部分容器，有float:left属性的div要放在有float:right属性的div后面，才能保持结构-->
+</div>
+
+<div>
+
+<h1> 左边自适应  </h1>
+ <div  style="float:right;width:215px; background:#669999">这里右边部分</div>
+ <div  style="float:left;margin:0 -215px 0 0; width:100%">
+    <div  style="margin:0 215px 0 0; background:#e4e4e4">这里是左边的内容</div>
+ </div>  
+</div>
+
+</body> 
+</html>

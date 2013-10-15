@@ -27,6 +27,7 @@
 .ui-form .ui-form-item label.ui-label .ui-form-label-title {
   padding-left: 5px;
 }
+.ui-form .ui-form-item label.ui-label:hover,
 .ui-form .ui-form-item label.ui-label:focus,
 .ui-form .ui-form-item label.ui-label:active {
   border: 1px #999 solid;
@@ -147,6 +148,7 @@
   font-family: Arial;
   font-size: 12px;
 }
+.ui-form .ui-textarea:hover,
 .ui-form .ui-textarea:focus,
 .ui-form .ui-textarea:active {
   border: 1px #999 solid;

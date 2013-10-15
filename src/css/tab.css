@@ -37,7 +37,6 @@
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  transition: background-color 0.4s ease-out, color 0.4s ease-out;
 }
 .ui-tab-item a,
 .ui-tab-item a:hover,
@@ -48,7 +47,7 @@
   top: 1px;
 }
 .ui-tab-item-current a {
-  background: #cc0000;
+  background: #286666;
   color: #ffffff;
   height: 33px;
   cursor: default;
@@ -59,6 +58,6 @@
   text-decoration: none;
 }
 .ui-tab-item-current a:hover {
-  background: #cc0000;
+  background: #286666;
   color: #ffffff;
 }

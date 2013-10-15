@@ -22,100 +22,46 @@ a:active { color: #f60; }
 
 ## 演示
 
-### 橙色按钮 a
+### 大按钮
 
 ````html
-<a href="javascript:;" class="ui-button ui-button-lorange">橙色大按钮</a>
-<a href="javascript:;" class="ui-button ui-button-morange">橙色中按钮</a>
-<a href="javascript:;" class="ui-button ui-button-sorange">橙色小按钮</a>
+<a href="javascript:;" class="ui-button ui-button-large">提交</a>
+<a href="javascript:;" class="ui-button ui-button-large ui-button-primary">主色调</a>
+<a href="javascript:;" class="ui-button ui-button-large ui-button-blue">蓝色</a>
+<a href="javascript:;" class="ui-button ui-button-large ui-button-disable">不可点</a>
 ````
 
-### 橙色按钮 input
+### 中按钮
 
 ````html
-<input type="button" class="ui-button ui-button-lorange" value="橙色大按钮">
-<input type="button" class="ui-button ui-button-morange" value="橙色中按钮">
-<input type="button" class="ui-button ui-button-sorange" value="橙色小按钮">
+<a href="javascript:;" class="ui-button ui-button-normal">提交</a>
+<a href="javascript:;" class="ui-button ui-button-normal ui-button-primary">主色调</a>
+<a href="javascript:;" class="ui-button ui-button-normal ui-button-blue">蓝色</a>
+<a href="javascript:;" class="ui-button ui-button-normal ui-button-disable">不可点</a>
 ````
 
-### 橙色按钮 button
-
+### 小按钮
 ````html
-<button class="ui-button ui-button-lorange">橙色大按钮</button>
-<button class="ui-button ui-button-morange">橙色中按钮</button>
-<button class="ui-button ui-button-sorange">橙色小按钮</button>
+<a href="javascript:;" class="ui-button ui-button-small">提交</a>
+<a href="javascript:;" class="ui-button ui-button-small ui-button-primary">主色调</a>
+<a href="javascript:;" class="ui-button ui-button-small ui-button-blue">蓝色</a>
+<a href="javascript:;" class="ui-button ui-button-small ui-button-disable">不可点</a>
 ````
 
-### 白色按钮 a
+### 按钮 input
 
 ````html
-<a href="javascript:;" class="ui-button ui-button-lwhite">白色大按钮</a>
-<a href="javascript:;" class="ui-button ui-button-mwhite">白色中按钮</a>
-<a href="javascript:;" class="ui-button ui-button-swhite">白色小按钮</a>
+<input type="button" class="ui-button ui-button-large" value="大按钮">
+<input type="button" class="ui-button ui-button-normal ui-button-primary" value="中按钮">
+<input type="button" class="ui-button ui-button-small ui-button-blue" value="小按钮">
 ````
 
-### 白色按钮 input
+### 按钮 button
 
 ````html
-<input type="button" class="ui-button ui-button-lwhite" value="白色大按钮">
-<input type="button" class="ui-button ui-button-mwhite" value="白色中按钮">
-<input type="button" class="ui-button ui-button-swhite" value="白色小按钮">
-````
-
-### 白色按钮 button
-
-````html
-<button class="ui-button ui-button-lwhite">白色大按钮</button>
-<button class="ui-button ui-button-mwhite">白色中按钮</button>
-<button class="ui-button ui-button-swhite">白色小按钮</button>
-````
-
-### 不可用按钮 a
-
-````html
-<a href="javascript:;" class="ui-button ui-button-ldisable">灰色大按钮</a>
-<a href="javascript:;" class="ui-button ui-button-mdisable">灰色中按钮</a>
-<a href="javascript:;" class="ui-button ui-button-sdisable">灰色小按钮</a>
-````
-
-### 不可用按钮 input
-
-````html
-<input type="button" class="ui-button ui-button-ldisable" value="灰色大按钮">
-<input type="button" class="ui-button ui-button-mdisable" value="灰色中按钮">
-<input type="button" class="ui-button ui-button-sdisable" value="灰色小按钮">
-````
-
-### 不可用按钮 button
-
-````html
-<button class="ui-button ui-button-ldisable">灰色大按钮</button>
-<button class="ui-button ui-button-mdisable">灰色中按钮</button>
-<button class="ui-button ui-button-sdisable">灰色小按钮</button>
-````
-
-### 蓝色按钮 a
-
-````html
-<a href="javascript:;" class="ui-button ui-button-lblue">蓝色大按钮</a>
-<a href="javascript:;" class="ui-button ui-button-mblue">蓝色中按钮</a>
-<a href="javascript:;" class="ui-button ui-button-sblue">蓝色小按钮</a>
-````
-
-### 蓝色按钮 input
-
-````html
-<input type="button" class="ui-button ui-button-lblue" value="蓝色大按钮">
-<input type="button" class="ui-button ui-button-mblue" value="蓝色中按钮">
-<input type="button" class="ui-button ui-button-sblue" value="蓝色小按钮">
-````
-
-### 蓝色按钮 button
-
-````html
-<button class="ui-button ui-button-lblue">蓝色大按钮</button>
-<button class="ui-button ui-button-mblue">蓝色中按钮</button>
-<button class="ui-button ui-button-sblue">蓝色小按钮</button>
+<button class="ui-button ui-button-large">大按钮</button>
+<button class="ui-button ui-button-normal ui-button-primary">中按钮</button>
+<button class="ui-button ui-button-small ui-button-blue">小按钮</button>
 ````
 
 
