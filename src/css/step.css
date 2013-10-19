@@ -138,11 +138,11 @@
 }
 
 .ui-step .ui-step-active .iconfont {
-    color:#ff7001;
+    color:#cc0000;
 }
 
 .ui-step .ui-step-done .iconfont {
-    color:#ff9a00;
+    color: #288666;
 }
 
 .ui-step .ui-step-done .ui-step-line {

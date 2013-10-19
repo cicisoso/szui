@@ -55,7 +55,7 @@
 }
 .ui-nav-item-current a,
 .ui-nav-item-current a:hover {
-  background: #cc0000;
+  background: #da1212;
   filter: none;
   color: #fff;
   box-shadow: none;
@@ -66,29 +66,33 @@
   display: none;
   position: absolute;
   left: 0;
-  top: 40px;
+  top: 50px;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #da1212;
   width: 200%;
+  z-index: 1000;
 }
 .ui-nav-subitem a {
   display: block;
   zoom: 1;
   padding: 0 15px;
-  height: 60px;
-  line-height: 60px;
+  height: 30px;
+  line-height: 30px;
   background: transparent;
   color: #868686;
   font-weight: normal;
   font-size: 12px;
 }
+.ui-nav-subitem a:hover {
+  background: #d56538;
+  color: #fff;
+}
 .ui-nav-subitem-current a,
 .ui-nav-subitem-current a:hover {
-  height: 60px;
-  line-height: 60px;
+  height: 30px;
+  line-height: 30px;
   padding: 0 16px;
-  background: #e7e7e7;
 }
 /* .ui-nav-subcontainer{height:37px;border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;background:-webkit-linear-gradient(top,#FEFEFE,#F7F7F7);background:-moz-linear-gradient(top,#FEFEFE,#F7F7F7);background:-ms-linear-gradient(#FEFEFE,#F7F7F7);background:-o-linear-gradient(#FEFEFE,#F7F7F7);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFEFEFE, endColorstr=#FFF7F7F7)}*/
 .ui-nav-item-current .ui-nav-submain {
